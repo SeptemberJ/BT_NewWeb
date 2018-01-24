@@ -2,8 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
+import axios from 'axios';
 
 class Content extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dataPartners:'',
+    };
+    console.log(props)
+  }
 
   static propTypes = {
     className: PropTypes.string,
@@ -13,6 +21,15 @@ class Content extends React.Component {
   static defaultProps = {
     className: 'content7',
   };
+
+  componentWillReceiveProps(newProps) {
+    //alert('componentWillReceiveProps-----')
+        // console.log(newProps)
+    }
+  componentDidMount() {
+    
+    
+  }
 
   getBlockChildren = (item, i) =>(
     <li key={i} id={`${this.props.id}-block${i}`}>

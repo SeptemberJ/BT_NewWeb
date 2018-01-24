@@ -12,7 +12,7 @@ class Footer extends React.Component {
     delete props.isMode;
     return (<div
       {...props}
-      playScale={0.05}
+      playscale={0.05}
     >
       <TweenOne
         animation={{ y: '+=30', opacity: 0, type: 'from' }}

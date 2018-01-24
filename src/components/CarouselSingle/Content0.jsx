@@ -10,8 +10,8 @@ class Content extends React.Component {
     delete props.isMode;
     return (
       <div
-        replay
-        playScale={[0.3, 0.1]}
+        replay='true'
+        playscale={[0.3, 0.1]}
         {...props}
       >
         <QueueAnim

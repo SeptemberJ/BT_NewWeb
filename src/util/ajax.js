@@ -1,8 +1,9 @@
 import * as $ from "jquery";
-//import * as CryptoJS from "crypto-js";
+import * as CryptoJS from "crypto-js";
 import _ from "underscore";
 
-const URL_PREFIX = '/';
+// const URL_PREFIX = '/';
+const URL_PREFIX = '';
 
 let clientId = localStorage['clientId'],
     clientSecret = localStorage['clientSecret'];
@@ -12,7 +13,7 @@ let clientId = localStorage['clientId'],
  * @returns {*}
  */
 export function getClientId() {
-    "use strict";
+    //"use strict";
     return clientId;
 }
 
@@ -21,7 +22,7 @@ export function getClientId() {
  * @param id
  */
 export function setClientId(id) {
-    "use strict";
+    //"use strict";
     clientId = id;
     localStorage['clientId'] = id;
 }
@@ -31,7 +32,7 @@ export function setClientId(id) {
  * @param secret
  */
 export function setClientSecret(secret) {
-    "use strict";
+    // "use strict";
     clientSecret = secret;
     localStorage['clientSecret'] = secret;
 }
@@ -41,7 +42,7 @@ export function setClientSecret(secret) {
  * 删除clientId和clientSecret
  */
 export function logout() {
-    "use strict";
+    //"use strict";
     clientId = undefined;
     delete localStorage['clientId'];
     clientSecret = undefined;
@@ -49,7 +50,7 @@ export function logout() {
 }
 
 const calcChecksum = function () {
-    "use strict";
+    //"use strict";
     var args = Array.prototype.slice.call(arguments);
     const message = args.join('');
     return CryptoJS.HmacSHA256(message, clientSecret);
@@ -66,7 +67,7 @@ const calcChecksum = function () {
  * @returns {Promise} 成功则返回data,失败则返回错误码
  */
 export function send(options) {
-    "use strict";
+    //"use strict";
     if (!options.name) {
         throw '没有指定接口名称';
     }
