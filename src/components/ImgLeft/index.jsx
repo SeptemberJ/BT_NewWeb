@@ -46,7 +46,7 @@ export default class Home extends React.Component {
       <Content0 id="content_2_0" key="content_2_0" isMode={this.state.isMode} SBYInfo={props.SBYInfo}/>,
     ];
     return (
-      <div className="templates-wrapper">
+      <div className="">
         {children}
       </div>
     );

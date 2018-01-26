@@ -1,9 +1,22 @@
 {
 	"result":1,
-	"SBYInfo":[
-		{"img":"http://pic.qiantucdn.com/58pic/26/60/36/08G58PICXUZ_1024.jpg","tit":"企业资源管理","content":"云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。"},
-		{"img":"https://gaopin-preview.bj.bcebos.com/133103600930.jpg@!420","tit":"企业资源管理","content":"云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。"},
-		{"img":"http://pic.qiantucdn.com/58pic/26/60/36/08G58PICXUZ_1024.jpg","tit":"企业资源管理","content":"云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。"},
-		{"img":"https://gaopin-preview.bj.bcebos.com/133103600930.jpg@!420","tit":"企业资源管理","content":"云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。"}
+	"Info":{
+		"banner":{"img":"http://www.dtston.com/Public/Home/images/zhsq_banner.png","tit":"社保云","content":"轻松交社保"},
+		"modules":{"tit":"物联网应用场景","content":"让一切都智能起来","array":[
+			{"icon":"https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png","title":"智能家居","content":"跨区域门禁管理,门禁权限管理,出入更加安全便捷"},
+			{"icon":"https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png","title":"智慧社区","content":"会议室预定、会议室使用、权限管理、会议室设备联动管理"},
+			{"icon":"https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png","title":"智能硬件","content":"分组管理、远程开关控制、灯光智能调节、定时延迟设置"},
+			{"icon":"https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png","title":"智能健康","content":"跨区域门禁管理,门禁权限管理,出入更加安全便捷"},
+			{"icon":"https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png","title":"楼宇办公","content":"会议室预定、会议室使用、权限管理、会议室设备联动管理"},
+			{"icon":"https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png","title":"智慧工业","content":"分组管理、远程开关控制、灯光智能调节、定时延迟设置"}
+		]},
+		"imgTxt":[
+		{"img":"http://artwork.dyrs.cc/photo/245/192/000/1915a6aa59e77410.jpg!l","tit":"智能家居","content":"智能家居领域软件开发方案，实现智能安防、家电控制、智能照明、智能娱乐等家居生活全方位智能化打造"},
+		{"img":"https://gaopin-preview.bj.bcebos.com/133103545432.jpg@!420","tit":"智慧社区","content":"家居+社区+警务安防联动系统，多维度确保社区安全；可信云认证平台与硬件安全接入系统，软硬件全方位保障社区系统安全"},
+		{"img":"https://gaopin-preview.bj.bcebos.com/133106690945.jpg@!420","tit":"智能硬件","content":"完整专业的项目团队，项目经理一对一全程跟踪服务，产品经理从需求确认到产品上线各个环节严格把控，实现项目按时按需完美交付"},
+		{"img":"https://gaopin-preview.bj.bcebos.com/134202974688.jpg@!420","tit":"智能健康","content":"软硬件整体解决方案，15天完成净水器智能化;通过大数据智能分析有针对性进行维修售后服务、信息推送、滤芯更换提醒等。提升用户体验，增强用户粘性，促进二次销售"},
+		{"img":"https://gaopin-preview.bj.bcebos.com/133201801211.jpg@!420","tit":"楼宇办公","content":"门禁安全系统与会议室管理权限系统权限设置，确保办公空间私密安全；楼宇办公软硬件系统，时时监测办公空间，提前预警安全隐患，快速采取安防措施"},
+		{"img":"https://gaopin-preview.bj.bcebos.com/133201804229.jpg@!420","tit":"智慧工业","content":"严苛的工业安全智能系统，全方位监测工厂设备、电源、环境等安全情况;从出厂到售后全程定位追踪，针对设备使用年限、使用情况等及时进行服务、售后及二次销售跟进，提升工厂市场反应速度"}
 	]
+	}
 }

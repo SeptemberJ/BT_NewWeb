@@ -1,15 +1,70 @@
 @import '~antd/dist/antd.css';
 
+ul,li{
+  list-style: none;
+}
 
+.sepia { /**  格式，filer: sepia(效果范围)
+     *  效果范围，取值范围为0-1或0-100%；0表示无效果，1或100%表示最大效果
+     */
+    -webkit-filter: sepia(100%);
+    -moz-filter: sepia(100%);
+    -o-filter: sepia(100%);
+    -ms-filter: sepia(100%);
+    filter: sepia(100%);
+}
+.grayscale { /**  格式，filer: grayscale(效果范围)
+     *  效果范围，取值范围为0-1或0-100%；0表示无效果，1或100%表示最大效果
+     */
+    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 /*.App {
   text-align: center;
 }*/
-
+.TextCenter{
+  text-align: center;
+}
+.MarginT_10{
+  margin-top: 10px;
+}
+.MarginT_20{
+  margin-top: 20px;
+}
+.MarginTB_10{
+  margin: 10px auto;
+}
+.MarginTB_20{
+  margin: 20px auto;
+}
+.PaddingT_10{
+  padding-top: 10px;
+}
+.PaddingT_50{
+  padding-top: 50px;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+.BgWhite{
+  background-color: #fff;
+}
 
+.Blank{
+  width: 1000%;
+  height: 50px;
+  background-color: #fff;
+}
+
+
+/*app*/
+.App{
+  overflow: hidden;
+}
 .App-header {
   background-color: #222;
   height: 150px;

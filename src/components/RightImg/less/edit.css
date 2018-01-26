@@ -1,0 +1,7 @@
+
+@media screen and (min-width: 768px) {
+#content_3_0 { height: 500px }
+#content_3_0-imgWrapper { width: 55% }
+#content_3_0-textWrapper { width: 45% }
+#content_3_0-img { left: 10%; width: 75%; line-height: 400px; height: 400px }
+}

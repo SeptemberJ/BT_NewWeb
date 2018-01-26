@@ -1,0 +1,8 @@
+
+@media screen and (min-width: 768px) {
+#content_10_0 { height: calc(500px - 64px) }
+#content_2_0 { height: 500px }
+#content_2_0-img { height: 400px; width: 80%; left: 5%; line-height: 0px }
+#content_2_0-textWrapper { width: 45% }
+#content_2_0-imgWrapper { width: 55% }
+}
