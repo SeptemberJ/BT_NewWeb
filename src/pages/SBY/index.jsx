@@ -6,6 +6,8 @@ import SingleBanner from '../../components/SingleBanner';
 import FnBlock from '../../components/FnBlock';
 import LeftIntroduction from '../../components/LeftIntroduction';
 import Video from '../../components/Video';
+import IMGTop from '../../components/IMGTop';
+import Blank from '../../components/Blank';
 import axios from 'axios';
 class SBY extends Component {
   constructor(props) {
@@ -13,8 +15,10 @@ class SBY extends Component {
       this.state = {
         isMode: false,
         SBYInfo:'',
-          BanInfo:'',
-          FnInfo:''
+        BanInfo:'',
+        FnInfo:'',
+        IndividualInfo:'',
+        EnterpriseInfo:''
       };
   }
     componentWillMount() {
@@ -24,7 +28,9 @@ class SBY extends Component {
         this.setState({
           SBYInfo: res.data.Info.imgTxt,
           BanInfo:res.data.Info.banner,
-          FnInfo:res.data.Info.modules
+          FnInfo:res.data.Info.modules,
+          IndividualInfo:res.data.Info.individual,
+          EnterpriseInfo:res.data.Info.enterprise,
         })
       }).catch((error)=> {
         console.log(error)
@@ -55,10 +61,13 @@ class SBY extends Component {
     return (
       <div className="templates-wrapper">
         <SingleBanner key="SingleBanner" BanInfo={this.state.BanInfo}/>
-        <FnBlock FnInfo={this.state.FnInfo}/>
-        
-        
+        <Blank/>
+        <IMGTop Info={this.state.IndividualInfo}/>
+        <Blank/>
+        <IMGTop Info={this.state.EnterpriseInfo}/>
         {childrenToRender}
+        
+        
 
       </div>
     )

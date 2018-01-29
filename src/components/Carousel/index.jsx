@@ -8,12 +8,12 @@ const { Meta } = Card;
 class CarouselBanner extends Component {
   render() {
     return (
-		<Carousel autoplay effect="fade">
+		<Carousel autoplay={true} effect="fade">
 		    <div>
 		    	<Card
 			    hoverable
 			    style={{height:'auto'}}
-			    cover={<img alt="example" src="http://img06.yiguoimg.com/d/others/180122/9288718349083702.jpg" />}
+			    cover={<img alt="example" src="/Img/ZNKZ_banner.png" />}
 			  	>
 			  	</Card>
 		    </div>
@@ -21,7 +21,7 @@ class CarouselBanner extends Component {
 		    	<Card
 			    hoverable
 			    style={{height:'auto'}}
-			    cover={<img alt="example" src="http://img05.yiguoimg.com/d/others/180123/9288718425039927.jpg" />}
+			    cover={<img alt="example" src="/Img/BYG_banner.png" />}
 			  	>
 			  	</Card>
 		    </div>
@@ -29,7 +29,7 @@ class CarouselBanner extends Component {
 		    	<Card
 			    hoverable
 			    style={{height:'auto'}}
-			    cover={<img alt="example" src="http://img05.yiguoimg.com/d/others/180119/9288718263723059.jpg" />}
+			    cover={<img alt="example" src="http://sbyun.com/skins2/images/BANNER-4.jpg" />}
 			  	>
 			  	</Card>
 		    </div>

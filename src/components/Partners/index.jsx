@@ -41,15 +41,13 @@ export default class Partners extends React.Component {
     if(props.PartnersInfo){
       CardsToRender = props.PartnersInfo.map((item, idx) => {
       return (
-              <Col xs={24} sm={24} md={8} lg={8} key={idx}>
+              <Col xs={24} sm={24} md={6} lg={6} key={idx}>
                 <Card className="MarginTB_20" key={idx}
                   bordered={false}
                   style={{ width: 200 }}
                   cover={<img alt="example" src={item.icon} />}
                 >
-                  <Meta className="TextCenter" key={idx}
-                    title={item.title}
-                  />
+                  
                 </Card>
               </Col>
         )

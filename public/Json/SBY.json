@@ -1,22 +1,30 @@
 {
 	"result":1,
 	"Info":{
-		"banner":{"img":"http://www.dtston.com/Public/Home/images/zhsq_banner.png","tit":"社保云","content":"轻松交社保"},
-		"modules":{"tit":"物联网应用场景","content":"让一切都智能起来","array":[
-			{"icon":"https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png","title":"智能家居","content":"跨区域门禁管理,门禁权限管理,出入更加安全便捷"},
-			{"icon":"https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png","title":"智慧社区","content":"会议室预定、会议室使用、权限管理、会议室设备联动管理"},
+		"banner":{"img":"http://www.dtston.com/Public/Home/images/zhsq_banner.png","tit":"社保云","content":"个人、企业社保代缴，每月轻松交社保"},
+		"individual":{"slogan":"个人保","array":[
+			{"icon":"http://sbyun.com/skins2/images/p-01.png","title":"换工作期间人员","content":"如果您刚刚离职，还没有找到合适的工作，您可能需要个人保，方便快捷办理个人社保代缴，自由选择缴纳月数，让您永不断缴！"},
+			{"icon":"http://sbyun.com/skins2/images/p-02.png","title":"自由职业者","content":"如果您是一位自由职业者，您需要个人保，依托专业的服务团队，让您舒心又省心，为您节省宝贵时间，让您再无后顾之忧！"},
+			{"icon":"http://sbyun.com/skins2/images/p-03.png","title":"初期创业者","content":"如果您是一位创业弄潮儿，您需要个人保，方便快捷的申请操作，让您快速获得最优质的服务，让您的创业踏上风火轮！"}
+		]},
+		"enterprise":{"slogan":"企业保","array":[
+			{"icon":"http://sbyun.com/skins2/images/ent-01.png","title":"各地域办理流程复杂","content":"不同地区社保缴纳的要求各不同，各地域的流程需求复杂，例如全国性的连锁公司很多手续需要去当地的社保局排队办理"},
+			{"icon":"http://sbyun.com/skins2/images/ent-02.png","title":"非正式员工的高风险","content":"多短期非正式员工，如兼职、实习等缺少有效的社会保障，特别是高危行业等公司承担着较大的用工风险"},
+			{"icon":"http://sbyun.com/skins2/images/ent-04.png","title":"人力流动性高","content":"如人力流动性较高，入职、离职员工的社保在不断的变动中，特别是集团性的公司要承担较大的工作压力"}
+		]},
+		"modules":{"tit":"缴纳社保的好处","content":"让一切都智能起来","array":[
+			{"icon":"http://sbyun.com/skins2/images/p-01.png","title":"换工作期间人员","content":"如果您刚刚离职，还没有找到合适的工作，您可能需要个人保，方便快捷办理个人社保代缴，自由选择缴纳月数，让您永不断缴！"},
+			{"icon":"http://sbyun.com/skins2/images/p-02.png","title":"智慧社区","content":"会议室预定、会议室使用、权限管理、会议室设备联动管理"},
 			{"icon":"https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png","title":"智能硬件","content":"分组管理、远程开关控制、灯光智能调节、定时延迟设置"},
 			{"icon":"https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png","title":"智能健康","content":"跨区域门禁管理,门禁权限管理,出入更加安全便捷"},
 			{"icon":"https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png","title":"楼宇办公","content":"会议室预定、会议室使用、权限管理、会议室设备联动管理"},
 			{"icon":"https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png","title":"智慧工业","content":"分组管理、远程开关控制、灯光智能调节、定时延迟设置"}
 		]},
 		"imgTxt":[
-		{"img":"http://artwork.dyrs.cc/photo/245/192/000/1915a6aa59e77410.jpg!l","tit":"智能家居","content":"智能家居领域软件开发方案，实现智能安防、家电控制、智能照明、智能娱乐等家居生活全方位智能化打造"},
-		{"img":"https://gaopin-preview.bj.bcebos.com/133103545432.jpg@!420","tit":"智慧社区","content":"家居+社区+警务安防联动系统，多维度确保社区安全；可信云认证平台与硬件安全接入系统，软硬件全方位保障社区系统安全"},
-		{"img":"https://gaopin-preview.bj.bcebos.com/133106690945.jpg@!420","tit":"智能硬件","content":"完整专业的项目团队，项目经理一对一全程跟踪服务，产品经理从需求确认到产品上线各个环节严格把控，实现项目按时按需完美交付"},
-		{"img":"https://gaopin-preview.bj.bcebos.com/134202974688.jpg@!420","tit":"智能健康","content":"软硬件整体解决方案，15天完成净水器智能化;通过大数据智能分析有针对性进行维修售后服务、信息推送、滤芯更换提醒等。提升用户体验，增强用户粘性，促进二次销售"},
-		{"img":"https://gaopin-preview.bj.bcebos.com/133201801211.jpg@!420","tit":"楼宇办公","content":"门禁安全系统与会议室管理权限系统权限设置，确保办公空间私密安全；楼宇办公软硬件系统，时时监测办公空间，提前预警安全隐患，快速采取安防措施"},
-		{"img":"https://gaopin-preview.bj.bcebos.com/133201804229.jpg@!420","tit":"智慧工业","content":"严苛的工业安全智能系统，全方位监测工厂设备、电源、环境等安全情况;从出厂到售后全程定位追踪，针对设备使用年限、使用情况等及时进行服务、售后及二次销售跟进，提升工厂市场反应速度"}
+		{"img":"/Img/SBY_order.png","tit":"我的订单","content":"显示您的所有订单，可以根据时间、支付状态、订单进度进行筛选，所有订单一目了然。"},
+		{"img":"/Img/SBY_buy.png","tit":"购买社保","content":"除了个人可以进行社保缴纳外，企业可以一次性为多个员工进行缴纳，社保和公积金亦可分开缴纳，操作方便。"},
+		{"img":"/Img/SBY_msg.png","tit":"消息通知","content":"当下完订单或者订单支付状态改变时，系统会通过消息通知您，一遍您了解您的业务进度。"},
+		{"img":"/Img/SBY_member.png","tit":"企业员工管理","content":"企业用户还可以进行员工管理。可以通过岗位以及员工的在职状态进行筛选，同时还可以进行员工的新增、离职、续保等操作，支持员工信息导入。"}
 	]
 	}
 }

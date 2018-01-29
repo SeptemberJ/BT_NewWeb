@@ -6,8 +6,13 @@
 		{"icon":"https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png","title":"XX有限公司", "content": ""}
 	],
 	"Info":[
-		{"icon":"https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png","title":"XX有限公司", "content": ""},
-		{"icon":"https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png","title":"XX有限公司", "content": ""},
-		{"icon":"https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png","title":"XX有限公司", "content": ""}
+		{"icon":"/Img/Partner_IHG.png","title":"", "content": ""},
+		{"icon":"/Img/Partner_SFJC.png","title":"", "content": ""},
+		{"icon":"/Img/Partner_VNZ.png","title":"", "content": ""},
+		{"icon":"/Img/Partner_Disney.png","title":"", "content": ""},
+		{"icon":"/Img/Partner_LG.png","title":"", "content": ""},
+		{"icon":"/Img/Partner_Q.png","title":"", "content": ""},
+		{"icon":"/Img/Partner_ACCOR.png","title":"", "content": ""},
+		{"icon":"/Img/Partner_ZPMC.png","title":"", "content": ""}
 	]
 }
